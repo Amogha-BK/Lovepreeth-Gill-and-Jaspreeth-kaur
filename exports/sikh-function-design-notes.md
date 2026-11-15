@@ -1,0 +1,22 @@
+# Sikh function artwork revision
+
+Generated with the built-in image_gen tool. The existing I–M floral logo is restored as the first page. The couple page, family page, contact page, event details and direct opening behavior are preserved.
+
+## shagun
+
+Saved asset: public/assets/iqbal-mandeep-shagun-sikh-16x19.png
+
+Prompt: Create a UNIQUE luxury wedding event stationery background, EXACT 16:19 portrait aspect ratio. Reference image 1 supplies the ornate cream and gold carved scalloped arch and rose garlands style. Reference image 2 supplies the Sikh setting. Match the rich ivory, antique gold, cream and burgundy rose palette. Design a thinner ornate scalloped arch around the very OUTER edge, delicate ivory drapery down both edges, floral vines kept to the top corners and outside margins. Shagun ceremonial decor at the very bottom: elegant gold tray with shagun envelopes and folded ivory and rose embroidered cloth, almonds and traditional Punjabi sweets in small silver bowls, cream roses and wine red roses. No people. Crucial composition: leave the entire center (x=18% to 82%, y=10% to 91%) perfectly empty, pale ivory, calm and uniform for readable text overlay; all objects strictly restricted to bottom 8% of canvas and outer side borders, and top decorations no deeper than 9%. No text, no letters, no numbers, no monogram, no logo, no watermark. Sikh Punjabi visual theme. No sacred fire, no havan kund, no hanging temple bells, no Hindu deities. Detailed painterly illustration with carved architectural dimensionality, elegant and polished. Full bleed art, not a mockup. This is the shagun event card.
+
+## jaago
+
+Saved asset: public/assets/iqbal-mandeep-jaago-sikh-16x19.png
+
+Prompt: Create a UNIQUE luxury wedding event stationery background, EXACT 16:19 portrait aspect ratio. Reference image 1 supplies the ornate cream and gold carved scalloped arch and rose garlands style. Reference image 2 supplies the Sikh setting. Match the rich ivory, antique gold, cream and burgundy rose palette. Design a thinner ornate scalloped arch around the very OUTER edge, delicate ivory drapery down both edges, floral vines kept to the top corners and outside margins. Punjabi Jaago evening decor at the very bottom: a beautifully decorated brass jaago pot with small glowing lights, a traditional dhol and folded magenta and sage phulkari dupattas. Warm tiny festoon lights at outer top corners only. No people. Crucial composition: leave the entire center (x=18% to 82%, y=10% to 91%) perfectly empty, pale ivory, calm and uniform for readable text overlay; all objects strictly restricted to bottom 8% of canvas and outer side borders, and top decorations no deeper than 9%. No text, no letters, no numbers, no monogram, no logo, no watermark. Sikh Punjabi visual theme. No sacred fire, no havan kund, no hanging temple bells, no Hindu deities. Detailed painterly illustration with carved architectural dimensionality, elegant and polished. Full bleed art, not a mockup. This is the jaago event card.
+
+## wedding
+
+Saved asset: public/assets/iqbal-mandeep-wedding-sikh-16x19.png
+
+Prompt: Create a UNIQUE luxury wedding event stationery background, EXACT 16:19 portrait aspect ratio. Reference image 1 supplies the ornate cream and gold carved scalloped arch and rose garlands style. Reference image 2 supplies the Sikh setting. Match the rich ivory, antique gold, cream and burgundy rose palette. Design a thinner ornate scalloped arch around the very OUTER edge, delicate ivory drapery down both edges, floral vines kept to the top corners and outside margins. Sikh Anand Karaj ceremonial decor at the very bottom: a small elegant gold palki canopy with the Guru Granth Sahib respectfully covered in ivory and blush rumala, with roses at the sides and ivory marble gurdwara details. No people. Crucial composition: leave the entire center (x=18% to 82%, y=10% to 91%) perfectly empty, pale ivory, calm and uniform for readable text overlay; all objects strictly restricted to bottom 8% of canvas and outer side borders, and top decorations no deeper than 9%. No text, no letters, no numbers, no monogram, no logo, no watermark. Sikh Punjabi visual theme. No sacred fire, no havan kund, no hanging temple bells, no Hindu deities. Detailed painterly illustration with carved architectural dimensionality, elegant and polished. Full bleed art, not a mockup. This is the wedding event card.
+

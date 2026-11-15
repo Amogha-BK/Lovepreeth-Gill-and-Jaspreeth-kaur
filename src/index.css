@@ -1,0 +1,213 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600&family=Noto+Serif+Gurmukhi:wght@400;500&display=swap');
+@import 'tailwindcss';
+:root {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: #654c3a;
+  background: #d6d9cc;
+  font-synthesis: none;
+  --script: 'Allura', Gabriola, cursive;
+  --sans: 'Manrope', Arial, sans-serif;
+}
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+  body { min-width: 320px; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+  button { cursor: pointer; }
+  a { color: inherit; text-decoration: none; }
+  button:focus-visible, a:focus-visible { outline: 2px solid #7d866d; outline-offset: 5px; }
+}
+.invitation { max-width: 800px; margin: auto; box-shadow: 0 0 90px #43473625; }
+nav { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; height: 66px; padding: 0 27px; background: #f5f0e5f5; border-bottom: 1px solid #92765e33; backdrop-filter: blur(12px); }
+.nav-home { font-style: italic; font-size: 21px; }
+.nav-links { display: flex; gap: 25px; font: 500 11px var(--sans); letter-spacing: .08em; }
+.music-button { display: grid; place-items: center; border: 1px solid #917c5b55; border-radius: 50%; width: 36px; height: 36px; background: transparent; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 12px 15px; border: 1px solid #88755780; background: #f7efdfc9; font: 500 10px var(--sans); letter-spacing: .04em; border-radius: 2px; transition: background .2s; }
+.button:hover { background: #fff7e9; }
+.eyebrow { font: 500 9px/1.8 var(--sans); letter-spacing: .17em; text-transform: uppercase; }
+.print-page { width: 100%; aspect-ratio: 9 / 16; }
+.cover-page { position: relative; background: #f4eddf; }
+.cover-page > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.cover-copy { position: absolute; top: 18%; width: 100%; text-align: center; padding: 0 22px; color: #5b5945; }
+.cover-copy h1 { font: clamp(43px, 9vw, 76px)/1.13 var(--script); margin: 10px 0 3px; }
+.cover-copy h1 span { font-size: .65em; }
+.cover-full-names { font-size: 18px; }
+.cover-date { font: 500 10px/1.8 var(--sans); text-transform: uppercase; letter-spacing: .2em; margin-top: 12px; }
+.scroll-link { display: flex; align-items: center; justify-content: center; gap: 7px; margin: 15px auto 0; font: 9px var(--sans); letter-spacing: .08em; }
+.stationery { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; position: relative; padding: 52px 62px; background: #f2e3cf url('/assets/iqbal-mandeep-paper.png') center/cover no-repeat; border-top: 1px solid #8d73552b; }
+.invocation { font: 24px/1.6 'Noto Serif Gurmukhi', 'Nirmala UI', serif; }
+.prayer { font: 14px/1.9 'Noto Serif Gurmukhi', 'Nirmala UI', serif; margin-top: 9px; }
+.ornament { display: flex; justify-content: center; align-items: center; gap: 13px; width: 180px; margin: 21px 0; color: #9d7f50; }
+.ornament span { height: 1px; width: 62px; background: linear-gradient(90deg, transparent, #9d7f50); }
+.ornament span:last-child { transform: rotate(180deg); }
+.grandparents { font-size: 18px; line-height: 1.5; margin: 10px 0 22px; max-width: 460px; }
+.host-names { font-size: 26px; line-height: 1.3; max-width: 520px; }
+.invitation-copy { font-size: 18px; line-height: 1.5; margin: 15px 0 23px; }
+.script { font-family: var(--script); font-weight: 400; }
+.couple-name { font-size: clamp(38px, 6.5vw, 53px); line-height: 1.2; }
+.with { font-style: italic; margin: 9px 0; font-size: 19px; }
+.bride-parents { font-size: 17px; line-height: 1.5; margin-top: 21px; }
+.closing-line { font-style: italic; font-size: 18px; line-height: 1.5; }
+.subtitle { font-style: italic; font-size: 20px; margin-top: 19px; }
+.event-page h2 { font-size: 82px; line-height: 1; margin: 14px 0 0; }
+.date-block p { font: 500 11px/1.7 var(--sans); letter-spacing: .2em; text-transform: uppercase; }
+.date-block strong { display: block; font: 400 70px/1.15 'Cormorant Garamond', Georgia, serif; margin: 3px 0; }
+.schedule { margin: 22px 0 0; width: min(100%, 330px); font-size: 21px; }
+.schedule > div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 5px 0; }
+.schedule dd { margin: 0; white-space: nowrap; }
+.venue { font-size: 34px; font-weight: 500; line-height: 1.2; margin: 12px 0 7px; }
+.address { font-size: 19px; line-height: 1.5; max-width: 400px; }
+.event-note { font-size: 18px; font-style: italic; max-width: 400px; line-height: 1.5; margin-top: 17px; }
+.event-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 22px 0 0; }
+.time-note { font: 8px/1.8 var(--sans); letter-spacing: .09em; margin-top: 20px; color: #7b6855; }
+.contact-page > .eyebrow { margin: 17px 0 9px; }
+.contact-page h2 { font-size: 65px; line-height: 1.2; }
+.rsvp-names { display: grid; gap: 4px; font-size: 22px; line-height: 1.5; }
+.phone-list { display: flex; gap: 22px; margin: 18px 0; font: 12px var(--sans); }
+.phone-list a { display: flex; gap: 8px; align-items: center; min-height: 36px; }
+.compliments { font-size: 28px; margin-top: 7px; }
+.family-flowers { font: 10px var(--sans); text-transform: uppercase; letter-spacing: .12em; margin: 22px 0; }
+.download { margin: 10px 0 25px; }
+footer { text-align: center; padding: 25px; background: #bfc3ae; font: 9px var(--sans); letter-spacing: .15em; text-transform: uppercase; }
+@media (max-width: 600px) {
+  nav { padding: 0 16px; height: 60px; }
+  .nav-home { font-size: 18px; }
+  .nav-links { gap: 14px; font-size: 9px; }
+  .music-button { width: 32px; height: 32px; }
+  .cover-copy { top: 17%; }
+  .cover-copy .eyebrow { font-size: 7px; }
+  .cover-copy h1 { font-size: clamp(34px, 10vw, 56px); margin: 6px 0 0; }
+  .cover-full-names { font-size: clamp(11px, 3.2vw, 16px); }
+  .cover-date { font-size: 8px; margin-top: 7px; }
+  .scroll-link { margin-top: 9px; font-size: 8px; }
+  .stationery { padding: 45px 24px; min-height: 620px; aspect-ratio: auto; }
+  .family-page { min-height: 740px; }
+  .prayer { font-size: 12px; line-height: 1.9; }
+  .invocation { font-size: 22px; }
+  .eyebrow { font-size: 8px; letter-spacing: .12em; }
+  .host-names { font-size: 23px; }
+  .grandparents { font-size: 17px; max-width: 310px; }
+  .invitation-copy { font-size: 17px; }
+  .couple-name { font-size: 39px; }
+  .bride-parents { font-size: 16px; }
+  .event-page h2 { font-size: 66px; }
+  .schedule { font-size: 19px; max-width: 290px; }
+  .venue { font-size: 30px; }
+  .address { font-size: 18px; max-width: 320px; }
+  .contact-page { min-height: 700px; }
+  .contact-page h2 { font-size: 53px; }
+  .phone-list { gap: 16px; font-size: 11px; }
+  .wide-only { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+@page { size: 160mm 284.444444mm; margin: 0; }
+@media print {
+  html { scroll-behavior: auto; }
+  body { margin: 0; background: #f2e3cf; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .screen-only, audio { display: none !important; }
+  .invitation { width: 160mm; max-width: none; box-shadow: none; }
+  .print-page { width: 160mm; height: 284.444444mm; min-height: 0 !important; break-after: page; break-inside: avoid; border: 0; }
+  .print-page:last-child { break-after: auto; }
+  .stationery { padding: 10mm 12mm; }
+  .family-page { padding: 9mm 10mm; }
+  .cover-copy { top: 18%; }
+  .cover-copy h1 { font-size: 58px; margin: 8px 0 0; }
+  .cover-full-names { font-size: 16px; }
+  .cover-date { font-size: 9px; margin-top: 9px; }
+  .eyebrow { font-size: 8px; }
+  .invocation { font-size: 21px; }
+  .prayer { font-size: 12px; margin-top: 6px; }
+  .grandparents { font-size: 16px; margin: 7px 0 17px; max-width: 420px; }
+  .host-names { font-size: 23px; max-width: 465px; }
+  .invitation-copy { font-size: 16px; margin: 12px 0 18px; }
+  .couple-name { font-size: 43px; }
+  .with { margin: 6px 0; font-size: 17px; }
+  .bride-parents { font-size: 15px; margin-top: 16px; }
+  .ornament { margin: 17px 0; }
+  .closing-line { font-size: 16px; }
+  .subtitle { font-size: 18px; margin-top: 13px; }
+  .event-page h2 { font-size: 72px; margin-top: 12px; }
+  .date-block strong { font-size: 61px; }
+  .date-block p { font-size: 10px; }
+  .schedule { font-size: 19px; margin-top: 18px; }
+  .venue { font-size: 30px; }
+  .address { font-size: 17px; }
+  .event-note { font-size: 16px; margin-top: 14px; }
+  .time-note { margin-top: 17px; }
+  .contact-page h2 { font-size: 57px; }
+  .contact-page > .eyebrow { margin-top: 16px; }
+  .rsvp-names { font-size: 21px; }
+  .phone-list { font-size: 12px; margin: 15px 0; }
+  .family-flowers { margin: 20px 0; }
+  .contact-page .closing-line { margin-top: 12px; }
+}
+
+/* Restored first page and Sikh artwork for celebration cards only. */
+.logo-page { position: relative; background: #bfc3ae; }
+.logo-page > img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+.event-art-shagun { background-image: url("/assets/iqbal-mandeep-shagun-sikh-16x19.png"); }
+.event-art-jaago { background-image: url("/assets/iqbal-mandeep-jaago-sikh-16x19.png"); }
+.event-art-wedding { background-image: url("/assets/iqbal-mandeep-wedding-sikh-16x19.png"); }
+
+/* Keep function text in the clear central area of the new artwork. */
+.event-page { padding: 16% 15% 14%; }
+.event-page .ornament { margin: 14px 0; }
+.event-page .subtitle { margin-top: 12px; }
+@media (max-width: 600px) {
+  .event-page { min-height: 810px; padding: 130px 48px 125px; }
+  .event-page .subtitle { font-size: 18px; }
+  .event-page h2 { font-size: 59px; }
+  .event-page .schedule { font-size: 17px; }
+  .event-page .venue { font-size: 27px; }
+  .event-page .address, .event-page .event-note { font-size: 16px; }
+}
+@media print {
+  .event-page { padding: 28mm 24mm 23mm; }
+  .event-page .subtitle { font-size: 16px; margin-top: 7px; }
+  .event-page h2 { font-size: 58px; margin-top: 8px; }
+  .event-page .ornament { margin: 10px 0; }
+  .event-page .date-block strong { font-size: 48px; }
+  .event-page .date-block p { font-size: 9px; }
+  .event-page .schedule { font-size: 17px; margin-top: 11px; }
+  .event-page .schedule > div { padding: 3px 0; }
+  .event-page .venue { font-size: 27px; margin-top: 8px; }
+  .event-page .address { font-size: 16px; }
+  .event-page .event-note { font-size: 14px; margin-top: 10px; }
+  .event-page .time-note { font-size: 7px; margin-top: 11px; }
+}
+/* Leave space above the illustrated objects at the foot of each function card. */
+@media (max-width: 600px) {
+  .event-page { padding-bottom: 230px; }
+}
+@media print {
+  .event-page { padding: 20mm 24mm 44mm; }
+  .event-page .subtitle { font-size: 15px; margin-top: 5px; }
+  .event-page h2 { font-size: 52px; }
+  .event-page .ornament { margin: 7px 0; }
+  .event-page .date-block strong { font-size: 44px; }
+  .event-page .schedule { font-size: 16px; }
+  .event-page .venue { font-size: 25px; }
+  .event-page .event-note { font-size: 13px; line-height: 1.3; }
+}
+
+/* Match the reference PDF: portrait pages and undistorted artwork. */
+.event-art-shagun { background-image: url("/assets/iqbal-mandeep-shagun-sikh-9x16.png"); }
+.event-art-jaago { background-image: url("/assets/iqbal-mandeep-jaago-sikh-9x16.png"); }
+.event-art-wedding { background-image: url("/assets/iqbal-mandeep-wedding-sikh-9x16.png"); }
+@media print {
+ .print-page { aspect-ratio: 9 / 16; }
+ .event-page { display: flex; padding: 35mm 22mm 47mm; }
+ .event-page .subtitle { font-size: 19px; margin-top: 15px; }
+ .event-page h2 { font-size: 77px; margin-top: 13px; }
+ .event-page .ornament { margin: 20px 0; }
+ .event-page .date-block strong { font-size: 68px; }
+ .event-page .date-block p { font-size: 11px; }
+ .event-page .schedule { font-size: 20px; margin-top: 23px; }
+ .event-page .schedule > div { padding: 5px 0; }
+ .event-page .venue { font-size: 32px; margin-top: 12px; }
+ .event-page .address { font-size: 18px; }
+ .event-page .event-note { font-size: 17px; line-height: 1.5; margin-top: 20px; }
+ .event-page .time-note { font-size: 8px; margin-top: 20px; }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Iqbal & Mandeep | Wedding Invitation",
+  "description": "Join the Gill family for Shagun and Jaago on 5 December 2026 and the wedding of Iqbal Singh Gill and Mandeep Kaur Sandhu on 7 December 2026.",
+  "language": "en",
+  "icons": {
+    "icon": "/assets/gurdwara-arch.svg"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
