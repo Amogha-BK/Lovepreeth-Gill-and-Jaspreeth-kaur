@@ -1,15 +1,15 @@
 {
-  "title": "Iqbal & Mandeep | Wedding Invitation",
-  "description": "Join the Gill family for Shagun and Jaago on 5 December 2026 and the wedding of Iqbal Singh Gill and Mandeep Kaur Sandhu on 7 December 2026.",
-  "language": "en",
-  "icons": {
-    "icon": "/assets/gurdwara-arch.svg"
-  },
-  "robots": {
-    "index": false
-  },
-  "accessibility": {
-    "addBypassLinks": false,
-    "ignoreReducedMotion": false
-  }
+    "title":  "Lovepreet \u0026 Jaspreet | Wedding Invitation",
+    "description":  "Join the Gill family for Shagun on 5 December, Jaago on 11 December at 6 p.m. and the wedding of Lovepreet Singh Gill and Jaspreet Kaur on 12 December 2026.",
+    "language":  "en",
+    "icons":  {
+                  "icon":  "/assets/gurdwara-arch.svg"
+              },
+    "robots":  {
+                   "index":  false
+               },
+    "accessibility":  {
+                          "addBypassLinks":  false,
+                          "ignoreReducedMotion":  false
+                      }
 }
